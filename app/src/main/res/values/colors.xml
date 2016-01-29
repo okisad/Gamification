@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C62828</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d9534f</color>
+    <!--<color name="drawer_list_background">#EF5350</color>-->
+    <color name="horizontal_progressbar_primary_color">#C62828</color>
+    <color name="horizontal_progressbar_secondary_color">#80E57373</color>
+    <color name="toolbar_background_color">#ed9d2c</color>
+    <color name="general_background_color">#fbe9d0</color>
+    <color name="drawer_list_background">#ffffff</color>
+    <color name="notification_tick_color">#5cb85c</color>
+    <color name="transparent_50">#1033b5e5</color>
+    <color name="notification_cross_color">#d9534f</color>
+    <color name="notification_question_color">#f0ad4e</color>
+    <color name="play_word_card_foreground_color_notr">#f0ad4e</color>
+    <color name="play_word_card_foreground_color_true">#5cb85c</color>
+    <color name="play_word_card_foreground_color_false">#d9534f</color>
+    <color name="notification_light_orange">#FFCC80</color>
+    <color name="notification_background">#ffffff</color>
+    <color name="notification_button_text_color">#ffffff</color>
+    <color name="progress_start">#C62828</color>
+    <color name="progress_end">#C62828</color>
+    <color name="black">#000000</color>
+</resources>

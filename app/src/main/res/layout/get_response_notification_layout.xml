@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/get_response_notification_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/get_response_notification_layout_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_red"
+            android:padding="10sp"
+            android:src="@drawable/ic_cross"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        >
+        <TextView android:id="@+id/get_response_notification_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"
+            android:text="Title"
+            />
+        <TextView android:id="@+id/get_response_notification_layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/get_response_notification_layout_title"
+            android:layout_below="@id/get_response_notification_layout_title"
+            android:text="content"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/get_response_notification_layout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_orange"
+            android:src="@drawable/ic_forward"
+            android:layout_gravity="center_vertical"
+            android:padding="10sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

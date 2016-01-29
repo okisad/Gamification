@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Memofication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="fragment_user_information_seen_words_title">GÖRÜLEN KELİME SAYISI</string>
+    <string name="fragment_user_information_known_words_title">BİLİNEN KELİME SAYISI</string>
+    <string name="fragment_user_information_not_known_words_title">BİLİNMEYEN KELİME SAYISI</string>
+    <string name="fragment_user_settings_start_time_title">Başlangıç Saati</string>
+    <string name="fragment_user_settings_stop_time_title">Bitiş Saati</string>
+    <string name="fragment_user_settings_repeat_time_title">GÜNLÜK TEKRAR SAYISI</string>
+    <string name="fragment_user_settings_sample_start_time">08:00</string>
+    <string name="fragment_user_settings_sample_stop_time">16:00</string>
+    <string name="fragment_user_settings_notification_on_off">Bildirimi Aç/Kapa</string>
+    <string name="navigation_menu_play">Oyna</string>
+    <string name="navigation_menu_profile">Profil</string>
+    <string name="navigation_menu_test">Test</string>
+    <string name="navigation_menu_settings">Ayarlar</string>
+</resources>

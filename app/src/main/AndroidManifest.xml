@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oktaysadoglu.gamification"
+    >
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.WordPagerActivity" android:screenOrientation="portrait" android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.TestWordPagerActivity" android:screenOrientation="portrait" android:parentActivityName=".activities.MainActivity"/>
+        <service android:name=".services.NotificationService"
+            android:exported="false"/>
+        <service android:name=".services.GetResposeFromNotificationService"/>
+        <service android:name=".services.DayStartService"/>
+        <service android:name=".services.AgainSendNotificationService"/>
+
+        <receiver android:name=".broadcasts.StartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="5b9bf5035928eb680e54f6197a39ba543b700c70" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

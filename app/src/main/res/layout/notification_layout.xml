@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/notification_background">
+
+    <TextView
+        android:id="@+id/notification_layout_word_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:text="Deneme"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="20sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/satir_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/first_answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="one"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textColor="@color/notification_button_text_color"
+            android:background="@drawable/round_button"
+            android:maxLines="3"/>
+
+        <Button
+            android:id="@+id/second_answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="two"
+            android:maxLines="3"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:textColor="@color/notification_button_text_color"
+            android:background="@drawable/round_button"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/satir_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/third_answer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="three"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:maxLines="3"
+            android:textColor="@color/notification_button_text_color"
+            android:background="@drawable/round_button"
+            />
+
+        <Button
+            android:id="@+id/fourth_answer"
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:maxLines="3"
+            android:text="fourth"
+            android:textSize="14sp"
+            android:textColor="@color/notification_button_text_color"
+            android:background="@drawable/round_button"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
